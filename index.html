@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كنيسة النعمة الرسولية</title>
+    <meta name="description" content="موقع كنيسة النعمة الرسولية - مواعيد الاجتماعات، الكتب، الترانيـم، والصور" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <a href="#home" class="brand">
+          <img src="img/logo.png" alt="شعار الكنيسة" width="200" height="90" />
+          <span>كنيسة النعمة الرسولية</span>
+        </a>
+        <div class="nav-links">
+          <a href="#schedule">المواعيد</a>
+          <a href="#media">الوسائط</a>
+          <a href="#contact">تواصل معنا</a>
+        </div>
+      </nav>
+
+      <div class="hero-content" id="home">
+        <div>
+          <p class="eyebrow">بيت الصلاه</p>
+          <h1>أهلاً بكم في كنيسة النعمة الرسولية</h1>
+          <p class="hero-text">
+            نرحب بكم في مكان يجمع بين العبادة، التواصل، والبركة، حيث تجدون مواعيد الاجتماعات، الكتب، والترانيـم.
+          </p>
+          <div class="hero-actions">
+            <a href="#schedule" class="btn btn-primary">مشاهدة المواعيد</a>
+            <a href="#contact" class="btn btn-secondary">تواصل معنا</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>مرحباً بكم في موقعنا</h3>
+          <p class="hero-text">اكتشفوا مواعيد الاجتماعات، الكتب، والترانيـم
+        </p>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="schedule" class="section section-alt">
+        <div class="section-title">
+          <p class="eyebrow">المواعيد</p>
+          <h2>جداول الاجتماعات والخدمات</h2>
+        </div>
+        <div class="schedule-list">
+          <div class="schedule-item">
+            <h3>الأحد</h3>
+            <p>10:00 صباحًا - اجتماع عام</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الأحد</h3>
+            <p>07:00 مساءً - اجتماع عام</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الاثنين</h3>
+            <p>12:00 مساءً - نادي صاسفس</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الاثنين</h3>
+            <p>07:00 مساءً - اجتماع سيدات</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الأربعاء</h3>
+            <p>07:00 مساءً - اجتماع صلاة</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الخميس</h3>
+            <p>07:00 مساءً - اجتماع عام</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الجمعة</h3>
+            <p>11:00 صباحًا - مدارس أحد</p>
+          </div>
+          <div class="schedule-item">
+            <h3>الجمعة</h3>
+            <p>02:00 مساءً - اجتماع شباب</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="media" class="section">
+        <div class="section-title">
+          <p class="eyebrow">الوسائط</p>
+          <h2>الكتب، الترانيـم، </h2>
+        </div>
+
+        <div class="media-grid">
+          <article class="media-card">
+            <h3>الكتب والملفات</h3>
+            <p>استعرض الكتب والملفات المتاحة بصيغة PDF.</p>
+            <div id="pdf-list" class="link-list"></div>
+            <a href="book/" class="text-link">فتح مجلد الكتب</a>
+          </article>
+
+          <article class="media-card">
+            <h3>الترانيـم</h3>
+            <p>اختر ترنيمة من القائمة لتشغيلها مباشرة داخل الصفحة.</p>
+            <div id="song-player" class="song-player">
+              <p class="player-label">لم يتم اختيار ترنيمة بعد</p>
+              <audio id="audio-player" controls hidden></audio>
+            </div>
+            <ul id="song-list" class="song-list"></ul>
+            <a href="songs/" class="text-link">فتح مجلد الترانيـم</a>
+          </article>
+        </div>
+
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="section-title">
+          <p class="eyebrow">تواصل معنا</p>
+          <h2>نحن في خدمتك</h2>
+        </div>
+        <div class="contact-box">
+          <p>للتواصل عبر فيسبوك أو البريد الإلكتروني، نحن دائماً متاحون لخدمتك.</p>
+          <p class="contact-detail"><strong>البريد الإلكتروني:</strong> <a href="mailto:apostolicblessing1995@gmail.com">apostolicblessing1995@gmail.com</a></p>
+          <p class="contact-detail"><strong>العنوان:</strong> <a href="https://www.bing.com/maps/default.aspx?v=2&pc=FACEBK&mid=8100&where1=4%20%D8%B4%D8%A7%D8%B1%D8%B9%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D9%85%D8%AA%D9%81%D8%B1%D8%B9%20%D9%85%D9%86%20%D8%B4%D8%A7%D8%B1%D8%B9%2030%20%D8%A8%D8%B9%D8%AF%20%D9%85%D9%8A%D8%AF%D8%A7%D9%86%20%D9%85%D9%83%D8%A9%20%20%D8%A7%D9%84%D8%B9%D8%B5%D8%A7%D9%81%D8%B1%D8%A9%20%D9%82%D8%A8%D9%84%D9%8A%2C%20Alexandria%2C%20Egypt&FORM=FBKPL1&mkt=en-US&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExaGdhYU9FT3QwR29EZmUyQXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6-H6-N_vwXvVN4su5wmVG53RjG99sEUQf-qS-0F1OoR8m4317FF2BcTG1LRg_aem_5RHYfS9OagoM1bBNobCwSA" target="_blank" rel="noopener">4 شارع السلام متفرع من شارع 30 بعد ميدان مكة العصافرة قبلي، الإسكندرية</a></p>
+          <div class="hero-actions">
+            <a href="https://www.facebook.com/churchoftheapostolicblessing?locale=ar_AR" target="_blank" rel="noopener" class="btn btn-primary">زيارة صفحتنا على فيسبوك</a>
+            <a href="mailto:apostolicblessing1995@gmail.com" class="btn btn-secondary">أرسل لنا بريدًا</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 كنيسة النعمة الرسولية. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
